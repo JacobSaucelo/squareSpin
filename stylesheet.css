@@ -1,0 +1,266 @@
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Inter', sans-serif; */
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  overflow: hidden;
+}
+
+body h1 {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.frame {
+  height: 300px;
+  width: 300px;
+}
+
+.square {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square div {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: spin 5s ease-in-out alternate infinite;
+}
+
+.s1 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s2 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s3 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s4 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s5 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s6 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s7 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s8 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s9 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s10 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s11 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s12 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s13 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s14 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s15 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s16 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s17 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s18 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s19 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s20 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s21 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s22 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s23 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s24 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s25 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s26 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s27 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s28 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s29 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s30 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s31 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s32 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s33 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s34 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s35 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s36 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s37 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s38 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+.s39 {
+  height: 92%;
+  width: 92%;
+  background-color: red;
+}
+.s40 {
+  height: 92%;
+  width: 92%;
+  background-color: rgb(22, 22, 22);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+
+.textsInfo {
+  padding: 1rem;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.textsInfo p {
+  text-align: center;
+}
+
+.textsInfo h1 {
+  color: #f0db4f;
+}
